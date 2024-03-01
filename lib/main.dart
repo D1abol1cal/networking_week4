@@ -18,8 +18,29 @@ class MyApp extends StatelessWidget {
     }
   }
 
+  void postPost() async {
+    final response = await http.post(
+      Uri.parse('https://jsonplaceholder.typicode.com/posts'),
+      headers: <String, String>{
+        'Content-Type': 'application/json; charset=UTF-8',
+      },
+      body: jsonEncode(<String, String>{
+        'title': 'foo',
+        'body': 'bar',
+        'userId': '1',
+        'id': '101'
+      }),
+    );
+    if (response.statusCode == 201) {
+      print(response.body);
+    } else {
+      throw Exception('Failed to create post');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
+    postPost();
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
