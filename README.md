@@ -1,16 +1,15 @@
-# testapp
+# Flutter REST API Demo
+# Roll Numbers
+- **Syed Nofel Talha (20K-0151)**
+- **Arhum Hashmi (20K-1892)**
+- **Maarib Ul Haq Siddiqui (20K-0202)*
 
-A new Flutter project.
+This Flutter application demonstrates the usage of REST networking APIs in Flutter. It serves as a university assignment project to showcase how to integrate and consume data from RESTful APIs in a Flutter app.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **REST API Integration:** Utilizes Flutter's `http` package to interact with RESTful APIs.
+- **Display Data:** Retrieves data from a sample REST API and displays it in the app.
+- **University Assignment:** Developed as part of a university assignment to demonstrate practical knowledge of REST API integration in Flutter.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
