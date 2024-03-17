@@ -2,7 +2,7 @@
 # Roll Numbers
 - **Syed Nofel Talha (20K-0151)**
 - **Arhum Hashmi (20K-1892)**
-- **Maarib Ul Haq Siddiqui (20K-0202)*
+- **Maarib Ul Haq Siddiqui (20K-0202)**
 
 This Flutter application demonstrates the usage of REST networking APIs in Flutter. It serves as a university assignment project to showcase how to integrate and consume data from RESTful APIs in a Flutter app.
 
